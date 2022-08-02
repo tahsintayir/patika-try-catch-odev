@@ -38,7 +38,7 @@ namespace patika_try_catch_odev
 
                 Console.WriteLine("Bos deger girdiniz");
             }
-            catch(FormatException)
+            catch(FormatException ex)
             {
                 Console.WriteLine("Veri tipi uygun degil.");
                 Console.WriteLine(ex);
